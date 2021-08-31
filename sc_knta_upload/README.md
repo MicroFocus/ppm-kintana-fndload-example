@@ -65,13 +65,13 @@ ksc_set FS_EDITION_RUN="[EXEC.OUTPUT]"
 echo $RUN_BASE
 ksc_set FS_RUN_BASE="[EXEC.OUTPUT]"
 
-``` echo "<font color="blue">***FNDLOAD UPLOAD***</font>"```
+```echo "<font color="blue">***FNDLOAD UPLOAD***</font>"```
 cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 [FNDCOMMAND]
 
 
-# Get log filename
+```# Get log filename```
 ```echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'```
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
 </pre></td></tr>
