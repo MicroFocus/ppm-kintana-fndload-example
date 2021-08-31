@@ -45,3 +45,22 @@ ksc_exit
 
 </pre></td></tr>
 </table>
+<br>
+
+<table>
+<tr><td>Command</td><td><b>Get Responsiblity from SCM</b></td></tr>
+<tr><td>Condition</td><td><pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' LIKE 'SCM_%'</pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Timeout(s)</td><td>90</td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
+
+ksc_connect_source_server
+
+ksc_capture_output echo [P.P_SING_RESP]
+
+ksc_exit
+
+</pre></td></tr>
+</table>
