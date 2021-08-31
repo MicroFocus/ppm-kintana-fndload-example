@@ -25,6 +25,7 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |custom kintana type |   link to details                                           | summary                       |
 |--------------------|-------------------------------------------------------------|-------------------------------|
 |special command     | <a href='./sc_knta_download/README.md'>sc_knta_download</a> | used to call FNDLOAD DOWNLOAD |
+|special command     | <a href='./sc_knta_set_fs_source_base_path /README.md'>sc_knta_set_fs_source_base_path </a> | sc_knta_set_fs_source_base_path  |
 |special command     | <a href='./sc_knta_upload/README.md'>sc_knta_upload</a>     | used to call FNDLOAD UPLOAD   |
 |special command     | <a href='./sc_knta_transfer_content_to_dest/README.md'>sc_knta_transfer_content_to_dest</a>| sc_knta_transfer_content_to_dest|  
 |special command     | <a href='./sc_knta_set_fs_dest_base_path/README.md'>sc_knta_set_fs_dest_base_path</a>| sc_knta_set_fs_dest_base_path|
