@@ -40,8 +40,8 @@ Details
 <tr><td>Enabled?</td><td>Yes</td></tr>
 <tr><td>Steps</td><td>
 <pre>
-
-```echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'```
+```
+echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'
 
 echo [SOURCE_ENV.SERVER_BASE_PATH]
 echo [ENV="[WFS.SOURCE_ENVIRONMENT_NAME]".SERVER_BASE_PATH]
@@ -64,7 +64,7 @@ echo 'Setting the FS PATH to : '[P_APP_ACTUAL_FS_SOURCE_BASE_PATH]
 # Get log filename
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print $(NF-1)}'
 ksc_set FNDDOWNLOADFILE="[EXEC.OUTPUT]"
-
+```
 </pre>
 </td></tr>
 
