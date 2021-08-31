@@ -29,3 +29,4 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |special command     | <a href='./sc_knta_transfer_content_to_dest/README.md'>sc_knta_transfer_content_to_dest</a>| sc_knta_transfer_content_to_dest|  
 |special command     | <a href='./sc_knta_set_fs_dest_base_path/README.md'>sc_knta_set_fs_dest_base_path</a>| sc_knta_set_fs_dest_base_path|
 |validation          | <a href='./validation_EBSAPPLY/README.md'>validation EBSAPPLY</a>| validation EBSAPPLY|
+|user data          | <a href='./environment_user_data/README.md'>environment_user_data</a>| environment user data|
