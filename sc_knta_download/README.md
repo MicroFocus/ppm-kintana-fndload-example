@@ -30,7 +30,9 @@ Commands:<BR>
 |Condition|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
 |Description||
 |Enabled?|Yes|
-|Steps  | ```echo "<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>"
+|Steps  | 
+```
+echo "<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>"
 
 echo [SOURCE_ENV.SERVER_BASE_PATH]
 echo [ENV="[WFS.SOURCE_ENVIRONMENT_NAME]".SERVER_BASE_PATH]
@@ -53,4 +55,5 @@ echo 'Setting the FS PATH to : '[P_APP_ACTUAL_FS_SOURCE_BASE_PATH]
 # Get log filename
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print $(NF-1)}'
 ksc_set FNDDOWNLOADFILE="[EXEC.OUTPUT]"
-```|
+```
+|
