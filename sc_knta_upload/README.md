@@ -50,30 +50,32 @@ ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
 </table>
 <BR>
 
+<table>
+<tr><td>Command</td><td><b>Source run EBS12 2 Environment</b></td></tr>
+<tr><td>Condition</td><td><pre>'[P.P_EBSAPPLY]' IN ('RUN','BOTHRUN')</pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
 
-Command: <b>Source run EBS12 2 Environment</b><BR>
-Condition:
-<pre>'[P.P_EBSAPPLY]' IN ('RUN','BOTHRUN')</pre>
-
-Steps:
-```
-# use token passed for the path to EBSapps.env.  
+```# use token passed for the path to EBSapps.env.  
 . [ORA_ENV_PATH]/EBSapps.env run
 echo $RUN_BASE | awk -F/ '{print $(NF)}'
 ksc_set FS_EDITION_RUN="[EXEC.OUTPUT]"
 echo $RUN_BASE
 ksc_set FS_RUN_BASE="[EXEC.OUTPUT]"
 
-echo "<font color="blue">***FNDLOAD UPLOAD***</font>"
+```echo "<font color="blue">***FNDLOAD UPLOAD***</font>"
 cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 [FNDCOMMAND]
 
 
 # Get log filename
-echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
+```echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
-```
+</pre></td></tr>
+</table>
 
 <BR>
 
