@@ -13,9 +13,9 @@ Commands:
 
 Command: set fs base path <BR>
 Steps:
-<div><pre>
+<pre><code>
 echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_set_fs_dest_base_path</b><br>The <b>[P.P_EBSAPPLY]</b> file system is on <b>[FS_EDITION_RUN]</b>.<br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'
-</div></pre>
+</code></pre>
 <BR>
 Command: fs1 check<BR>
 Condition: <pre>'[FS_EDITION_RUN]'='fs1'</pre> <BR>
