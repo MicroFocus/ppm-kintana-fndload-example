@@ -17,14 +17,18 @@ FNDCOMMAND              [FNDCOMMAND]
 
 Commands:
 
-Command: <b>Early Handling</b><BR>
-Steps:
-
-```
-echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'
-#I need a real token for condition statements
+<table>
+<tr><td>Command</td><td><b>Early Handling</b></td></tr>
+<tr><td>Condition</td><td></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
+```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'```
+```#I need a real token for condition statements```
 ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
-```
+</pre></td></tr>
+</table>
 <BR>
 
 Command: <b>Default EBSAPPLY to APPCODE</b><BR>
@@ -39,6 +43,7 @@ ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
 ```
 
 <BR>
+
 
 Command: <b>Source run EBS12 2 Environment</b><BR>
 Condition:
