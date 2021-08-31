@@ -16,7 +16,6 @@ FNDCOMMAND              [FNDCOMMAND]
 <img src="./sc_knta_download_commands.PNG" width=800/>
 
 Commands:<BR>
-|Attribute |   Details | 
 |----------|-----------|
 |Command| Early Handling|
 |Steps  | ```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```
