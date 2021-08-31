@@ -22,7 +22,7 @@ Commands:<BR>
 |Condition||
 |Description||
 |Enabled?|Yes|
-|Steps  | ```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```|
+|Steps  | ``` echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```|
 
 |Attribute |   Details | 
 |----------|-----------|
@@ -30,7 +30,7 @@ Commands:<BR>
 |Condition|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
 |Description||
 |Enabled?|Yes|
-|Steps  | ```echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'
+|Steps  | ``` echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'
 
 echo [SOURCE_ENV.SERVER_BASE_PATH]
 echo [ENV="[WFS.SOURCE_ENVIRONMENT_NAME]".SERVER_BASE_PATH]
