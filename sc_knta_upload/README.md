@@ -79,26 +79,29 @@ ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
 
 <BR>
 
-Command: <b>Source patch EBS12 2 Environment</b><BR>
-Condition:
-<pre>'[P.P_EBSAPPLY]' IN ('PATCH','BOTHPATCH')</pre>
+<table>
+<tr><td>Command</td><td><b>Source patch EBS12 2 Environment</b></td></tr>
+<tr><td>Condition</td><td><pre>'[P.P_EBSAPPLY]' IN ('PATCH','BOTHPATCH')</pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
 
-Steps:
-```
-echo "<font color="blue">***Source <b>patch</b> EBS12 2 Environment***</font>"
-# use token passed for the path to EBSapps.env.  
+```echo "<font color="blue">***Source <b>patch</b> EBS12 2 Environment***</font>"```
+```# use token passed for the path to EBSapps.env.```  
 . [ORA_ENV_PATH]/EBSapps.env patch
 echo $PATCH_BASE | awk -F/ '{print $(NF)}'
 ksc_set FS_EDITION_PATCH="[EXEC.OUTPUT]"
 echo $PATCH_BASE
 ksc_set FS_PATCH_BASE="[EXEC.OUTPUT]"
 
-echo "<font color="blue">***FNDLOAD UPLOAD***</font>"
+```echo "<font color="blue">***FNDLOAD UPLOAD***</font>"```
 cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 [FNDCOMMAND]
 
-# Get log filename
-echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
+```# Get log filename```
+```echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'```
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
-```
+</pre></td></tr>
+</table>
