@@ -18,9 +18,7 @@ echo '<font color="blue">*********************************<br><b>Special Command
 ```
 <BR>
 Command: fs1 check<BR>
-Condition: ```<pre> 
-'[FS_EDITION_RUN]'='fs1'</pre>
-``` <BR>
+Condition: <pre>'[FS_EDITION_RUN]'='fs1'</pre><BR>
 Description: FS1 check <BR>
 
 Steps:
@@ -31,7 +29,7 @@ echo 'Setting the FS PATH to : '[P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 <BR>
 Command: fs2 check<BR>
-Condition: ```'[FS_EDITION_RUN]'='fs2'``` <BR>
+Condition: <pre>'[FS_EDITION_RUN]'='fs2'</pre> <BR>
 Description: FS2 check<BR>
 
 Steps:
