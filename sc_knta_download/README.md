@@ -22,7 +22,7 @@ Steps:
 <pre>echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'</pre>
 <BR>
 
-Command: If not source control managment
+Command: If not source control managment<BR>
 Condition:
 <pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>
 
