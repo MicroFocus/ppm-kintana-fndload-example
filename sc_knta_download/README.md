@@ -25,7 +25,7 @@ Commands:<BR>
 |Steps  | ``` echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```|
 
 <table>
- <tr><td>Command</td><td> If not source control managment</td></tr>
+ <tr><td>Command</td><td><b>If not source control managment</b></td></tr>
 </tr>
  <tr><td>Condition</td><td><pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre></td></tr>
 <tr><td>Description</td><td></td></tr>
