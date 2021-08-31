@@ -24,11 +24,12 @@ Commands:
 <tr><td>Enabled?</td><td>Yes</td></tr>
 <tr><td>Steps</td>
 <td><pre>
-``` echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>' ```
+``` echo "<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>" ```
 ```#I need a real token for condition statements```
 ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
 </pre></td></tr>
 </table>
+
 <BR>
 
 Command: <b>Default EBSAPPLY to APPCODE</b><BR>
