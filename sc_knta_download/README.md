@@ -29,7 +29,7 @@ Commands:<BR>
 |Command| If not source control managment|
 |Condition||
 |Description||
-|Enabled?|Yes|```'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'```|
+|Enabled?|Yes|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
 
 |Steps  | ```echo "<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>"
 
