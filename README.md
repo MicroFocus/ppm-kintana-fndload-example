@@ -17,6 +17,7 @@ Background:
   
 This example has been created for Micro Focus PPM/Kintana to assist in their migration of Oracle's AOL objec types.  Most customer's have created their own object types, to perform these activity.  This is one of the reason it has yet to be added OOTB.  
   
-  
-special command : <a href='./sc_knta_download/README.md'>sc_knta_download</a> 
+custom type     |   link to details                                           | summary  
+special command | <a href='./sc_knta_download/README.md'>sc_knta_download</a> | used to call FNDLOAD DOWNLOAD
+special command | <a href='./sc_knta_upload/README.md'>sc_knta_download</a>   | used to call FNDLOAD UPLOAD
   
