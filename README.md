@@ -7,7 +7,7 @@ Please note : This example describes a PPM/Kintana Object Type and supporting ob
 
 Oracle knowledge References :
 
-https://blogs.oracle.com/prajkumar/oracle-fndload-scripts [1]
-https://docs.oracle.com/cd/E26401_01/doc.122/e22961.pdf [2]
-https://docs.oracle.com/cd/E18727_01/doc.121/e12148/T531058T531061.htm[3]
-https://docs.oracle.com/cd/E26401_01/doc.122/e22954/T202991T531065.htm[4]
+https://blogs.oracle.com/prajkumar/oracle-fndload-scripts [1]<BR>
+https://docs.oracle.com/cd/E26401_01/doc.122/e22961.pdf [2]<BR>
+https://docs.oracle.com/cd/E18727_01/doc.121/e12148/T531058T531061.htm [3]<BR>
+https://docs.oracle.com/cd/E26401_01/doc.122/e22954/T202991T531065.htm [4]<BR>
