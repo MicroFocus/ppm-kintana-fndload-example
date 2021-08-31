@@ -11,3 +11,12 @@ https://blogs.oracle.com/prajkumar/oracle-fndload-scripts [1]<BR>
 https://docs.oracle.com/cd/E26401_01/doc.122/e22961.pdf [2]<BR>
 https://docs.oracle.com/cd/E18727_01/doc.121/e12148/T531058T531061.htm [3]<BR>
 https://docs.oracle.com/cd/E26401_01/doc.122/e22954/T202991T531065.htm [4]<BR>
+
+  
+Background:
+  
+This example has been created for Micro Focus PPM/Kintana to assist in their migration of Oracle's AOL objec types.  Most customer's have created their own object types, to perform these activity.  This is one of the reason it has yet to be added OOTB.  
+  
+  
+special command : sc_knta_download 
+  
