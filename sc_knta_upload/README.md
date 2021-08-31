@@ -17,11 +17,14 @@ FNDCOMMAND              [FNDCOMMAND]
 
 Commands:
 
-Command: Early Handling
+Command: <b>Early Handling</b>
 Steps:
-<pre>echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'
+
+```
+echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'
 #I need a real token for condition statements
-ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"</pre>
+ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
+```
 <BR>
 
 Command: Default EBSAPPLY to APPCODE<BR>
@@ -29,11 +32,11 @@ Condition:
 <pre>'[P.DEST_ENV.APP.UD.EBSFSAPPLY]' IS NOT NULL</pre>
 
 Steps:
-<pre>
+```
 #echo '[DEST_ENV.APP.UD.EBSFSAPPLY]'
 echo '[P.P_EBSAPPLY]'
 ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
-</pre>
+```
 
 <BR>
 
