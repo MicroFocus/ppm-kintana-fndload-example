@@ -27,10 +27,9 @@ Commands:<BR>
 |Attribute |   Details | 
 |----------|-----------|
 |Command| If not source control managment|
-|Condition||
+|Condition|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
 |Description||
-|Enabled?|Yes|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
-
+|Enabled?|Yes|
 |Steps  | ```echo "<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>"
 
 echo [SOURCE_ENV.SERVER_BASE_PATH]
