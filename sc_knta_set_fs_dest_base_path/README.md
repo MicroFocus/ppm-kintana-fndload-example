@@ -18,8 +18,8 @@ echo '<font color="blue">*********************************<br><b>Special Command
 ```
 <BR>
 Command: fs1 check<BR>
-Condition: ``` 
-'[FS_EDITION_RUN]'='fs1'
+Condition: ```<pre> 
+'[FS_EDITION_RUN]'='fs1'</pre>
 ``` <BR>
 Description: FS1 check <BR>
 
