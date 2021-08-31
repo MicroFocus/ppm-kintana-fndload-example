@@ -29,8 +29,8 @@ echo 'Setting the FS PATH to : '[P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 <BR>
 Command: fs2 check<BR>
-Condition: <pre>'[FS_EDITION_RUN]'='fs2'</pre> <BR>
-Description: FS2 check<BR>
+Condition: <pre>'[FS_EDITION_RUN]'='fs2'</pre><BR>
+Description: FS2 check <BR>
 
 Steps:
 ```
