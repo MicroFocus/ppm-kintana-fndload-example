@@ -33,17 +33,21 @@ ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
 
 <BR>
 
-Command: <b>Default EBSAPPLY to APPCODE</b><BR>
-Condition:
-<pre>'[P.DEST_ENV.APP.UD.EBSFSAPPLY]' IS NOT NULL</pre>
+<table>
+<tr><td>Command</td><td><b>Default EBSAPPLY to APPCODE</b></td></tr>
+<tr><td>Condition</td><td><pre>'[P.DEST_ENV.APP.UD.EBSFSAPPLY]' IS NOT NULL</pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
 
-Steps:
 ```
 #echo '[DEST_ENV.APP.UD.EBSFSAPPLY]'
 echo '[P.P_EBSAPPLY]'
 ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
 ```
-
+</pre></td></tr>
+</table>
 <BR>
 
 
