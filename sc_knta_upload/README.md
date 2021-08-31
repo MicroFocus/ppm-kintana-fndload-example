@@ -25,7 +25,7 @@ Commands:
 <tr><td>Steps</td>
 <td><pre>
 
-``` echo "<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>" ```
+```echo "<font color="blue">*********************************<br><b>Special Command: sc_knta_upload</b><br>UPLOAD file system: <b>[RUNPATCHBOTH]</b><br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>" ```
 ```#I need a real token for condition statements```
 ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
 </pre></td></tr>
@@ -58,21 +58,21 @@ ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
 <tr><td>Steps</td>
 <td><pre>
 
-```# use token passed for the path to EBSapps.env.  
+```# use token passed for the path to EBSapps.env.  ```
 . [ORA_ENV_PATH]/EBSapps.env run
 echo $RUN_BASE | awk -F/ '{print $(NF)}'
 ksc_set FS_EDITION_RUN="[EXEC.OUTPUT]"
 echo $RUN_BASE
 ksc_set FS_RUN_BASE="[EXEC.OUTPUT]"
 
-```echo "<font color="blue">***FNDLOAD UPLOAD***</font>"
+``` echo "<font color="blue">***FNDLOAD UPLOAD***</font>"```
 cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 
 [FNDCOMMAND]
 
 
 # Get log filename
-```echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
+```echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'```
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
 </pre></td></tr>
 </table>
