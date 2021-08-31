@@ -24,7 +24,8 @@ Commands:<BR>
 |Enabled?|Yes|
 |Steps  | ```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```|
 <BR>
-
+|Attribute |   Details | 
+|----------|-----------|
 |Command| If not source control managment|
 |Condition||
 |Description||
