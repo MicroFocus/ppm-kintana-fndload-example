@@ -33,8 +33,8 @@ Attribute
 Details
 </th>
  </tr>
-|----------|-----------|
-|Command| If not source control managment|
+ <tr><td>Command</td><td> If not source control managment</td></tr>
+
 |Condition|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
 |Description||
 |Enabled?|Yes|
