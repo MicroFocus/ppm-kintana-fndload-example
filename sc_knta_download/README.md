@@ -16,22 +16,25 @@ FNDCOMMAND              [FNDCOMMAND]
 <img src="./sc_knta_download_commands.PNG" width=800/>
 
 Commands:<BR>
-|Attribute |   Details | 
-|----------|-----------|
-|Command| Early Handling|
-|Condition||
-|Description||
-|Enabled?|Yes|
-|Steps  | ``` echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```|
-
+<table>
+<tr><td>Command</td><td><b>Early Handling</b></td></tr>
+<tr><td>Condition</td><td></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<tr><td><pre>
+```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```
+</pre></td></tr>
+</table>
+<br>
 <table>
  <tr><td>Command</td><td><b>If not source control managment</b></td></tr>
-</tr>
+
  <tr><td>Condition</td><td><pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre></td></tr>
 <tr><td>Description</td><td></td></tr>
 <tr><td>Enabled?</td><td>Yes</td></tr>
-<tr><td>Steps</td><td>
-<pre>
+<tr><td>Steps</td>
+<tr><td><pre>
 
 ```echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'```
 
@@ -57,6 +60,5 @@ cd [P_APP_ACTUAL_FS_SOURCE_BASE_PATH]
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print $(NF-1)}'
 ksc_set FNDDOWNLOADFILE="[EXEC.OUTPUT]"
 
-</pre>
-</td></tr>
-
+</pre></td></tr>
+</table>
