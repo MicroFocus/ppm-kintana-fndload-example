@@ -23,6 +23,7 @@ Commands:<BR>
 <tr><td>Enabled?</td><td>Yes</td></tr>
 <tr><td>Steps</td>
 <td><pre>
+
 ```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```
 </pre></td></tr>
 </table>
