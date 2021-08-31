@@ -31,4 +31,5 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |special command     | <a href='./sc_knta_set_fs_dest_base_path/README.md'>sc_knta_set_fs_dest_base_path</a>| sc_knta_set_fs_dest_base_path|
 |validation          | <a href='./validation_EBSAPPLY/README.md'>validation EBSAPPLY</a>| validation EBSAPPLY|
 |validation          | <a href='./validation_KNTA - Responsibilities/README.md'>validation KNTA - Responsibilities</a>| validation KNTA - Responsibilities|
+|validation          | <a href='./validation__KNTA - Oracle Applicaitons/README.md'>validation _KNTA - Oracle Applicaitons</a>| validation _KNTA - Oracle Applicaitons|
 |user data          | <a href='./environment_user_data/README.md'>environment_user_data</a>| environment user data|

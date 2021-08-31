@@ -1,6 +1,6 @@
 
-Validation : EBSAPPLY
-Description: EBSAPPLY
+Validation : validation_KNTA - Responsibilities
+Description: validation_KNTA - Responsibilities
   
 <img src="./validation_KNTA - Responsibilities.PNG" width=800/>
 
