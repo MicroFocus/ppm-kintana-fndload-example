@@ -34,10 +34,11 @@ Details
 </th>
  </tr>
  <tr><td>Command</td><td> If not source control managment</td></tr>
+</tr>
+ <tr><td>Condition</td><td><pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
 
-|Condition|<pre>'[SOURCE_ENV.ENV.ENVIRONMENT_NAME]' NOT IN 'SCM_%'</pre>|
-|Description||
-|Enabled?|Yes|
 |Steps  | ```
 
 echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'
