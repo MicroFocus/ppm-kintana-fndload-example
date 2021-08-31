@@ -41,7 +41,7 @@ Details
 <tr><td>Steps</td><td>
 <pre>
 
-echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'
+```echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'```
 
 echo [SOURCE_ENV.SERVER_BASE_PATH]
 echo [ENV="[WFS.SOURCE_ENVIRONMENT_NAME]".SERVER_BASE_PATH]
