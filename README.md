@@ -16,7 +16,7 @@ Please send feedback or questions: to christopher.hangl@microfocus.com
 
 <b>FAQ:</b>
 
-1. Is there exports of the entities?  No, we are not providing exports of the object types.  If you want to use a variation of the example, please create and manage your own custom entites.
+1. Is there exports of the entities?  No, we are not providing exports of the enities types.  If you want to use a variation of this example, please create and manage your own custom entites.
   
 <b>Background:</b>
   
@@ -28,3 +28,4 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |special command     | <a href='./sc_knta_upload/README.md'>sc_knta_upload</a>     | used to call FNDLOAD UPLOAD   |
 |special command     | <a href='./sc_knta_transfer_content_to_dest/README.md'>sc_knta_transfer_content_to_dest</a>| sc_knta_transfer_content_to_dest|  
 |special command     | <a href='./sc_knta_set_fs_dest_base_path/README.md'>sc_knta_set_fs_dest_base_path</a>| sc_knta_set_fs_dest_base_path|
+|validation          | <a href='./validation_EBSAPPLY/README.md'>validation EBSAPPLY</a>| validation EBSAPPLY|
