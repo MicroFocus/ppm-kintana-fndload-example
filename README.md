@@ -18,5 +18,5 @@ Background:
 This example has been created for Micro Focus PPM/Kintana to assist in their migration of Oracle's AOL objec types.  Most customer's have created their own object types, to perform these activity.  This is one of the reason it has yet to be added OOTB.  
   
   
-special command : sc_knta_download 
+special command : <a ref='./sc_knta_download/README.md'>sc_knta_download</a> 
   
