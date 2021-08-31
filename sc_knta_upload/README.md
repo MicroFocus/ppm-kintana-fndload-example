@@ -5,7 +5,7 @@ Description: Calls FNDLOAD UPLOAD
 <img src="./sc_knta_upload_parameters.PNG" width=800/>
 Parameter Name    Default Token
 <pre>
-RUNPATCHBOTH             [RUNPATCHBOTH]
+RUNPATCHBOTH            [RUNPATCHBOTH]
 ORA_ENV_PATH            [ORA_ENV_PATH]
 BASE_PATH               [BASE_PATH]
 APP_SERVER_BASE         [APP_SERVER_BASE]

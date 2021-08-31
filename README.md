@@ -21,4 +21,4 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |--------------------|-------------------------------------------------------------|-------------------------------|
 |special command     | <a href='./sc_knta_download/README.md'>sc_knta_download</a> | used to call FNDLOAD DOWNLOAD |
 |special command     | <a href='./sc_knta_upload/README.md'>sc_knta_upload</a>     | used to call FNDLOAD UPLOAD   |
-  
+|special command     | <a href='./sc_knta_transfer_content_to_dest/README.md'>sc_knta_transfer_content_to_dest</a>| sc_knta_transfer_content_to_dest|  
