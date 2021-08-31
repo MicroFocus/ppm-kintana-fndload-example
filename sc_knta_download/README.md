@@ -22,7 +22,7 @@ Commands:<BR>
 <tr><td>Description</td><td></td></tr>
 <tr><td>Enabled?</td><td>Yes</td></tr>
 <tr><td>Steps</td>
-<tr><td><pre>
+<td><pre>
 ```echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_download</b><br>preparing to source <b>[RUNPATCH]</b> filesystem.<br>*********************************<br></font>'```
 </pre></td></tr>
 </table>
@@ -34,7 +34,7 @@ Commands:<BR>
 <tr><td>Description</td><td></td></tr>
 <tr><td>Enabled?</td><td>Yes</td></tr>
 <tr><td>Steps</td>
-<tr><td><pre>
+<td><pre>
 
 ```echo '<font color="blue" size="+1">***Source <b>[RUNPATCH]</b> EBS12 2 Environment***</font>'```
 
