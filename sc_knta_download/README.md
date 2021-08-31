@@ -61,7 +61,7 @@ cd [P_APP_ACTUAL_FS_SOURCE_BASE_PATH]
 
 [FNDCOMMAND]
 
-# Get log filename
+``` # Get log filename```
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print $(NF-1)}'
 ksc_set FNDDOWNLOADFILE="[EXEC.OUTPUT]"
 
