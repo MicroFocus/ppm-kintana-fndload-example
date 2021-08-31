@@ -11,13 +11,13 @@ Parameter Name    Default Token
 
 Commands:
 
-Command: set fs base path <BR>
+Command: <b>set fs base path</b> <BR>
 Steps:
 ```
 echo '<font color="blue">*********************************<br><b>Special Command: sc_knta_set_fs_dest_base_path</b><br>The <b>[P.P_EBSAPPLY]</b> file system is on <b>[FS_EDITION_RUN]</b>.<br>Environment: [WFS.DEST_ENVIRONMENT_NAME]<br>App code: [P.P_APP_SHORT_NAME]<br>*********************************</font>'
 ```
 <BR>
-Command: fs1 check<BR>
+Command: <b>fs1 check</b><BR>
 Condition: <pre>'[FS_EDITION_RUN]'='fs1'</pre><BR>
 Description: FS1 check <BR>
 
@@ -28,7 +28,7 @@ echo 'Setting the FS PATH to : '[P_APP_ACTUAL_FS_DEST_BASE_PATH]
 ```
 
 <BR>
-Command: fs2 check<BR>
+Command: <b>fs2 check</b><BR>
 Condition: <pre>'[FS_EDITION_RUN]'='fs2'</pre><BR>
 Description: FS2 check <BR>
 
