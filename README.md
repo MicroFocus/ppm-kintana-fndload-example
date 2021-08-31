@@ -12,6 +12,11 @@ https://docs.oracle.com/cd/E26401_01/doc.122/e22961.pdf [2]<BR>
 https://docs.oracle.com/cd/E18727_01/doc.121/e12148/T531058T531061.htm [3]<BR>
 https://docs.oracle.com/cd/E26401_01/doc.122/e22954/T202991T531065.htm [4]<BR>
 
+Please send feedback or questions: to christopher.hangl@microfocus.com
+
+FAQ:
+
+1. Is there exports of the entities?  No, we are not providing exports of the object types.  If you want to use a variation of the example please create and manage your own custom entites.
   
 Background:
   
