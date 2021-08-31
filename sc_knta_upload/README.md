@@ -45,7 +45,7 @@ Condition:
 <pre>'[P.P_EBSAPPLY]' IN ('RUN','BOTHRUN')</pre>
 
 Steps:
-<pre>
+```
 # use token passed for the path to EBSapps.env.  
 . [ORA_ENV_PATH]/EBSapps.env run
 echo $RUN_BASE | awk -F/ '{print $(NF)}'
@@ -62,7 +62,7 @@ cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 # Get log filename
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
-</pre>
+```
 
 <BR>
 
@@ -71,7 +71,7 @@ Condition:
 <pre>'[P.P_EBSAPPLY]' IN ('PATCH','BOTHPATCH')</pre>
 
 Steps:
-<pre>
+```
 echo "<font color="blue">***Source <b>patch</b> EBS12 2 Environment***</font>"
 # use token passed for the path to EBSapps.env.  
 . [ORA_ENV_PATH]/EBSapps.env patch
@@ -88,4 +88,4 @@ cd [P_APP_ACTUAL_FS_DEST_BASE_PATH]
 # Get log filename
 echo '[EXEC.OUTPUT]' | awk -F'[. O]' '{print "L"$(NF-1)".log"}'
 ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
-</pre>
+```
