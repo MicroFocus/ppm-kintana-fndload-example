@@ -29,6 +29,7 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |special command     | <a href='./sc_knta_upload/README.md'>sc_knta_upload</a>     | used to call FNDLOAD UPLOAD   |
 |special command     | <a href='./sc_knta_transfer_content_to_dest/README.md'>sc_knta_transfer_content_to_dest</a>| sc_knta_transfer_content_to_dest|  
 |special command     | <a href='./sc_knta_set_fs_dest_base_path/README.md'>sc_knta_set_fs_dest_base_path</a>| sc_knta_set_fs_dest_base_path|
+|special command     | <a href='./sc_knta_default_filename/README.md'>sc_knta_default_filename</a>| sc_knta_default_filename|
 |validation          | <a href='./validation_EBSAPPLY/README.md'>validation EBSAPPLY</a>| validation EBSAPPLY|
 |validation          | <a href='./validation_KNTA - Responsibilities/README.md'>validation KNTA - Responsibilities</a>| validation KNTA - Responsibilities|
 |validation          | <a href='./validation_KNTA - Oracle Applicaitons/README.md'>validation_KNTA - Oracle Applicaitons</a>| validation_KNTA - Oracle Applicaitons|
@@ -36,4 +37,3 @@ This example has been created for Micro Focus PPM/Kintana to assist in their mig
 |object type          | <a href='./object_type_KNTALOADResponsiblity/README.md'>KNTALOAD Responsiblity</a>| KNTALOAD Responsiblity|
 
 
-sc_default_filename
