@@ -17,7 +17,7 @@ FNDCOMMAND              [FNDCOMMAND]
 
 Commands:
 
-Command: <b>Early Handling</b>
+Command: <b>Early Handling</b><BR>
 Steps:
 
 ```
@@ -27,7 +27,7 @@ ksc_set RUNPATCHBOTH="[P.P_EBSAPPLY]"
 ```
 <BR>
 
-Command: Default EBSAPPLY to APPCODE<BR>
+Command: <b>Default EBSAPPLY to APPCODE</b><BR>
 Condition:
 <pre>'[P.DEST_ENV.APP.UD.EBSFSAPPLY]' IS NOT NULL</pre>
 
@@ -40,7 +40,7 @@ ksc_set EBSFSAPPLY="[EXEC.OUTPUT]"
 
 <BR>
 
-Command: Source run EBS12 2 Environment<BR>
+Command: <b>Source run EBS12 2 Environment</b><BR>
 Condition:
 <pre>'[P.P_EBSAPPLY]' IN ('RUN','BOTHRUN')</pre>
 
@@ -66,7 +66,7 @@ ksc_set FNDUPLOADOUTFILE="[EXEC.OUTPUT]"
 
 <BR>
 
-Command: Source patch EBS12 2 Environment<BR>
+Command: <b>Source patch EBS12 2 Environment</b><BR>
 Condition:
 <pre>'[P.P_EBSAPPLY]' IN ('PATCH','BOTHPATCH')</pre>
 
