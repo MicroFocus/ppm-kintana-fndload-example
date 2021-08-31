@@ -1,7 +1,18 @@
 
-  special command : sc_knta_download 
+Special Command : sc_knta_download 
+Description: Calls FNDLOAD DOWNLOAD
   
 <img src="./sc_knta_download_parameters.PNG" width=800/>
+Parameter Name    Default Token
+<pre>
+RUNPATCH                [RUNPATCH]
+ORA_ENV_PATH            [ORA_ENV_PATH]
+BASE_PATH               [BASE_PATH]
+APP_SERVER_BASE         [APP_SERVER_BASE]
+DEST_APP_CLIENT_BASE    [APP_CLIENT_BASE]
+FNDCOMMAND              [FNDCOMMAND]
+</pre>
+
 <img src="./sc_knta_download_commands.PNG" width=800/>
 
 Commands:
