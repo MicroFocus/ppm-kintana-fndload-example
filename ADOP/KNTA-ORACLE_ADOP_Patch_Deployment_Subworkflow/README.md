@@ -8,5 +8,5 @@ Description: KNTA-ORACLE ADOP Patch Deployment Subworkflow
 Parameters
 
 |Prompt|   Token                                          | Description                       | Default Value|
-|--------------------|-------------------------------------------------------------|-------------------------------|
+|--------------------|--------------------------------|-----------------------------|-------------------------------|
 |CLEANUP_MODE|CLEANUP_MODE|After executing abort, full mode clean up should be run|full|
