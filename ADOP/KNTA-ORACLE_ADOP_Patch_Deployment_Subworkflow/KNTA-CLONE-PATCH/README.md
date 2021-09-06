@@ -7,7 +7,7 @@ Description: KNTA-CLONE-PATCH
 
 <br>
 <table>
-<tr><td>Command</td><td><b>Transfer content to destination patch file location</b></td></tr>
+<tr><td>Command</td><td><b>CLONE</b></td></tr>
 <tr><td>Condition</td><td><pre></pre></td></tr>
 <tr><td>Description</td><td></td></tr>
 <tr><td>Timeout(s)</td><td>360</td></tr>
