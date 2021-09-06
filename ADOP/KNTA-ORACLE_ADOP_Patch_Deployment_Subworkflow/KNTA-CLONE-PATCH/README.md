@@ -16,7 +16,7 @@ Description: KNTA-CLONE-PATCH
 <td><pre>
 
 ksc_connect_dest_server
-ksc_simple_respond "[WFI.P.ADOP_CLONE_CMD]" -hide "Enter the APPS password:" "[DEST_ENV.ENV.AC.OA_APPS_PASSWORD]" -hide "Enter the SYSTEM password:" "[DEST_ENV.ENV.AC.OA_SYSTEM_PASSWORD]" -hide "Enter the WLSADMIN password:" 1Qaz2wsx
+ksc_simple_respond "[WFI.P.ADOP_CLONE_CMD]" -hide "Enter the APPS password:" "[DEST_ENV.ENV.AC.OA_APPS_PASSWORD]" -hide "Enter the SYSTEM password:" "[DEST_ENV.ENV.AC.OA_SYSTEM_PASSWORD]" -hide "Enter the WLSADMIN password:" passwordorPasswordToken
 ksc_set MY_EXIT_CODE="[EXEC.EXIT_CODE]"
 ksc_exit
 
