@@ -5,6 +5,8 @@ This example of PPM workflows, object types, validaitons, special commands is pr
 
 Please note : This example describes a PPM/Kintana Object Type and supporting objects calling Oracle's FNDLOAD and other utilities.   All Oracle utlities are subject to Oracle's terms of use.
 
+
+
 <b>Oracle knowledge References :</b>
 
 https://blogs.oracle.com/prajkumar/oracle-fndload-scripts [1]<BR>
@@ -16,7 +18,7 @@ Please send feedback or questions: to christopher.hangl@microfocus.com
 
 <b>FAQ:</b>
 
-1. Is there exports of the entities?  No, we are not providing exports of the enities types.  If you want to use a variation of this example, please create and manage your own custom entites.
+1. Are there exports of the entities?  No, we are not providing exports of the enities types.  If you want to use a variation of this example, please create and manage your own custom entites.
   
 <b>Background:</b>
   
