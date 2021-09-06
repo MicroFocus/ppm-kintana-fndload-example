@@ -4,6 +4,21 @@ Description: KNTA-PREPARE-PATCH
   
 <img src="./KNTA-PREPARE-PATCH.PNG" width=800/>
 
+<br>
+<table>
+<tr><td>Command</td><td><b>check ebs version</b></td></tr>
+<tr><td>Condition</td><td><pre></pre></td></tr>
+<tr><td>Description</td><td></td></tr>
+<tr><td>Timeout(s)</td><td>90</td></tr>
+<tr><td>Enabled?</td><td>Yes</td></tr>
+<tr><td>Steps</td>
+<td><pre>
+
+```# SELECT RELEASE_NAME FROM FND_PRODUCT_GROUPS;```
+
+</pre></td></tr>
+</table>
+
 
 <br>
 <table>
